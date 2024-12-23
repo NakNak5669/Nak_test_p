@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Pizza.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+      <button class="log-button">Login</button>
+    </label>
+    <div class="shopping" onclick="toggleCard()">  
+      <img src="./Image/add-to-cart.svg">
+      <span class="quantity">0</span>
+    </div>
+    <label class="logo">NAK</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
+      <li><button class="log-button">Login</button></li>
+    </ul>
+  </nav>
+  <!-- <div class="card">
+    <h1>Card</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+  </div> -->
+
+
+  <div class="card">
+    <h1>Card</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+  </div>
+<div class="Order">
+  <div class="pizza-text">
+    <div class="pizza">
+      <img src="./Image/31-318002_pizza-png-tumblr-cartoon-pizza-transparent.png" alt="">
+    </div>
+    <div class="text">
+      <h1>Crispy and Delicious Pizzas</h1><br>
+      <p>Order the best Pizza to end make your family moments more memorable,</p>
+      <span><p>place your order now</p></span><br>
+      <button>Order Now</button>
+    </div>
+  </div>
+</div>
+<div class="title">
+  <h1>Fresh and Natural Ingredients</h1>
+</div>
+<div class="f-i-n">
+  <div class="pizza-text">
+    <div class="pizza">
+      <img src="./Image/2 no.png" alt="">
+    </div>
+    <div class="text">
+      <div class="icon">
+        <i class="fa-solid fa-jar-wheat"></i>
+        <h5>Flour</h5><hr>
+        <p>The best wheat from the field for the best flour</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-cheese"></i>
+        <h5>Cheese</h5><hr>
+        <p>Indulge in cheese for a healthy future</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-wine-bottle"></i>
+        <h5>Sauces</h5><hr>
+        <p>Add a touch of salsa to your life and it will taste better</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-cow"></i>
+        <h5>Sauces</h5><hr>
+        <p>Add a touch of salsa to your life and it will taste better</p>
+      </div>
+      <div class="icon">
+        <i class="fa-solid fa-lemon"></i>
+        <h5>Sauces</h5><hr>
+        <p>Add a touch of salsa to your life and it will taste better</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popular">
+    <div class="text">
+      <h1>Discover Popular Orders</h1><br>
+      <p>Select the best prepared and delicious flavors. We have collected some popular eecipes from around the world for you to choose</p>
+    </div>
+    <div class="scroll-container">
+      <img src="./Image/11.webp" alt="Cinque Terre" width="400" height="350">
+      <img src="./Image/12.webp" alt="Forest" width="400" height="350">
+      <img src="./Image/14 pizza.avif" alt="Northern Lights" width="400" height="350">
+      <img src="./Image/15 pizza.jpg" alt="Mountains" width="400" height="350">
+      <img src="./Image/16 pizza.avif" alt="Cinque Terre" width="400" height="350">
+      <img src="./Image/17 pizza.avif" alt="Forest" width="400" height="350">
+      <img src="./Image/18 pizza.jpg" alt="Northern Lights" width="400" height="350">
+      <img src="./Image/19 pizza.avif" alt="Mountains" width="400" height="350">
+    </div>
+</div>
+</div> 
+<div class="title-menu">
+  <h1>The most</h1>
+  <span><h1>Devoured Pizzas</h1></span>
+</div>
+<div class="box-all">
+  <!-- <div class="list">
+    <img src="./Image/11.webp" alt="">
+    <h3>Canadian</h3>
+    <h4>10$</h4>
+    <button id="btn">Add</button>
+  </div>
+  <div class="list">
+    <img src="./Image/12.webp" alt="">
+    <h3>Hot Prepared</h3>
+    <h4>14$</h4>
+    <button id="btn">Add</button>
+  </div> -->
+</div>
+<div class="title-about">
+  <h1>About Us</h1>
+</div>
+<div class="about">
+  <div class="pizza-text">
+    <div class="pizza">
+      <img src="./Image/pizza-about us.png" alt="">
+    </div>
+    <div class="text">
+      <h1>Learn More about Our History</h1><br>
+      <span><p>The secret to success is the best ingredients to manke a better pizza. Today we strive for perfection, just as we have been doing for 15 years when we first opened the pizzeria in Lima-Peru.</p></span><br>
+      <button>The Best Pizzas</button>
+    </div>
+  </div>
+</div>
+<div class="contact">
+  <div class="box-c-t">
+    <div class="text">
+      <div class="title">
+        <h1>Contact Now</h1>
+      </div>
+      <div class="U-D">
+        <div class="Us">
+          <h1>WriteUs</h1><br>
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-brands fa-rocketchat"></i>
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+        </div>
+        <div class="dy">
+          <h1>Delivery</h1><br>
+          <p>+0887193922</p>
+          <p>+8838833888</p>
+        </div>
+      </div>
+      <div class="location">
+        <h1>Location</h1><br>
+        <p>Phnom Penh-city-Norton</p>
+      </div>
+    </div>
+    <div class="delivery">
+      <img src="./Image/delivery Pizza.webp" alt="">
+    </div>
+  </div>
+</div>
+<div class="payment">
+  <div class="title-t"><h1>Pizza</h1></div>
+  <div class="box">
+    <div class="social">
+      <div class="text"><h2>Social</h2></div>
+      <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+    </div>
+    <div class="Email">
+      <div class="text"><h2>Subscribe For Discounts</h2></div><br>
+      <div class="input-email">
+        <form action="">
+          <input type="text" placeholder="Email..." name="Email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="pmt">
+      <div class="text"><h2>Payment Methods</h2></div>
+      <div class="icon">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="./Pizza.js"></script>
+</html>
